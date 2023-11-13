@@ -1988,13 +1988,13 @@ typing-extensions = ">=3.7.4"
 
 [[package]]
 name = "unstructured"
-version = "0.10.28"
+version = "0.10.30"
 description = "A library that prepares raw documents for downstream ML tasks."
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "unstructured-0.10.28-py3-none-any.whl", hash = "sha256:0965567c2477c5a926517a295fd0318c2823a603d79c6f47f2bbe58f5aacb89e"},
-    {file = "unstructured-0.10.28.tar.gz", hash = "sha256:c995015c5d51d4732f2aa49663eebac4aacf51d7e905c8f240d14ff2269d392f"},
+    {file = "unstructured-0.10.30-py3-none-any.whl", hash = "sha256:0615f14daa37450e9c0fcf3c3fd178c3a06b6b8d006a36d1a5e54dbe487aa6b6"},
+    {file = "unstructured-0.10.30.tar.gz", hash = "sha256:a86c3d15c572a28322d83cb5ecf0ac7a24f1c36864fb7c68df096de8a1acc106"},
 ]
 
 [package.dependencies]
@@ -2017,7 +2017,7 @@ typing-extensions = "*"
 
 [package.extras]
 airtable = ["pyairtable"]
-all-docs = ["markdown", "msg-parser", "networkx", "onnx", "openpyxl", "pandas", "pdf2image", "pdfminer.six", "pypandoc", "python-docx (>=1.0.1)", "python-pptx (<=0.6.21)", "unstructured-inference (==0.7.10)", "unstructured.pytesseract (>=0.3.12)", "xlrd"]
+all-docs = ["markdown", "msg-parser", "networkx", "onnx", "openpyxl", "pandas", "pdf2image", "pdfminer.six", "pypandoc", "python-docx (>=1.1.0)", "python-pptx (<=0.6.23)", "unstructured-inference (==0.7.11)", "unstructured.pytesseract (>=0.3.12)", "xlrd"]
 azure = ["adlfs", "fsspec (==2023.9.1)"]
 azure-cognitive-search = ["azure-search-documents"]
 bedrock = ["boto3", "langchain"]
@@ -2027,8 +2027,8 @@ confluence = ["atlassian-python-api"]
 csv = ["pandas"]
 delta-table = ["deltalake", "fsspec (==2023.9.1)"]
 discord = ["discord-py"]
-doc = ["python-docx (>=1.0.1)"]
-docx = ["python-docx (>=1.0.1)"]
+doc = ["python-docx (>=1.1.0)"]
+docx = ["python-docx (>=1.1.0)"]
 dropbox = ["dropboxdrivefs", "fsspec (==2023.9.1)"]
 elasticsearch = ["elasticsearch", "jq"]
 embed-huggingface = ["huggingface", "langchain", "sentence-transformers"]
@@ -2038,21 +2038,21 @@ github = ["pygithub (>1.58.0)"]
 gitlab = ["python-gitlab"]
 google-drive = ["google-api-python-client"]
 huggingface = ["langdetect", "sacremoses", "sentencepiece", "torch", "transformers"]
-image = ["onnx", "pdf2image", "pdfminer.six", "unstructured-inference (==0.7.10)", "unstructured.pytesseract (>=0.3.12)"]
+image = ["onnx", "pdf2image", "pdfminer.six", "unstructured-inference (==0.7.11)", "unstructured.pytesseract (>=0.3.12)"]
 jira = ["atlassian-python-api"]
-local-inference = ["markdown", "msg-parser", "networkx", "onnx", "openpyxl", "pandas", "pdf2image", "pdfminer.six", "pypandoc", "python-docx (>=1.0.1)", "python-pptx (<=0.6.21)", "unstructured-inference (==0.7.10)", "unstructured.pytesseract (>=0.3.12)", "xlrd"]
+local-inference = ["markdown", "msg-parser", "networkx", "onnx", "openpyxl", "pandas", "pdf2image", "pdfminer.six", "pypandoc", "python-docx (>=1.1.0)", "python-pptx (<=0.6.23)", "unstructured-inference (==0.7.11)", "unstructured.pytesseract (>=0.3.12)", "xlrd"]
 md = ["markdown"]
 msg = ["msg-parser"]
 notion = ["htmlBuilder", "notion-client"]
-odt = ["pypandoc", "python-docx (>=1.0.1)"]
+odt = ["pypandoc", "python-docx (>=1.1.0)"]
 onedrive = ["Office365-REST-Python-Client (<2.4.3)", "bs4", "msal"]
 openai = ["langchain", "openai", "tiktoken"]
 org = ["pypandoc"]
 outlook = ["Office365-REST-Python-Client (<2.4.3)", "msal"]
 paddleocr = ["unstructured.paddleocr (==2.6.1.3)"]
-pdf = ["onnx", "pdf2image", "pdfminer.six", "unstructured-inference (==0.7.10)", "unstructured.pytesseract (>=0.3.12)"]
-ppt = ["python-pptx (<=0.6.21)"]
-pptx = ["python-pptx (<=0.6.21)"]
+pdf = ["onnx", "pdf2image", "pdfminer.six", "unstructured-inference (==0.7.11)", "unstructured.pytesseract (>=0.3.12)"]
+ppt = ["python-pptx (<=0.6.23)"]
+pptx = ["python-pptx (<=0.6.23)"]
 reddit = ["praw"]
 rst = ["pypandoc"]
 rtf = ["pypandoc"]
