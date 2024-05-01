@@ -21,7 +21,7 @@ tiktoken = ">=0.5.1,<0.7.0"
 feedparser = "^6.0.10"
 coveralls = "^3.3.1"
 packaging = "^23.2"
-langchain-community = "^0.0.32"
+langchain-community = ">=0.0.32,<0.0.37"
 langchain-openai = "^0.1.2"
 
 
